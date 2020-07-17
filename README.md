@@ -21,7 +21,7 @@ Paths:
 * Paths should use UNIX style paths:
   `/cmd/pkger/main.go`
 * If unspecified the path's package is assumed to be the current module.
-* Packages can specified in at the beginning of a path with a `:` seperator.
+* Packages can specified at the beginning of a path with a `:` separator.
 github.com/markbates/pkger:/cmd/pkger/main.go
 * There are no relative paths. All paths are absolute to the modules root.
 
